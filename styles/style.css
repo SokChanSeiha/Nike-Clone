@@ -33,6 +33,18 @@
   .sodan {
     font-family: "SoDo Sans",sans-serif;
   }
-
+  
+  .radio {
+    font-family: "Radio Canada Big", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 10;
+    font-style: normal;
+  }
+  .oswald-SEMIBOLD {
+    font-family: "Oswald", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 390;
+    font-style: normal;
+  }
 
   
