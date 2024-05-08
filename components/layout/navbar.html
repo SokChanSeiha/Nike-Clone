@@ -1,5 +1,5 @@
     <!-- Header -->
-    <div class="bg-gray-100">
+    <div class="bg-gray-100 lg:block hidden">
         <div class="flex justify-between max-w-[1920px] mx-auto items-center px-10 py-1">
             <!-- left part-->
             <div class="flex gap-1.5 items-center">
@@ -17,7 +17,7 @@
     </div>
 
     <!-- NavBar -->
-    <div>
+    <div class="lg:block hidden">
         <div class=" flex justify-between items-center max-w-[1920px] mx-auto  px-5 mb-3">
             <!-- nike logo -->
             <a class="px-5"><img src="../../images/layout/nikelogo.png" class="w-[70px]" alt=""></a>
@@ -26,9 +26,9 @@
                 <li>New & Featured</li>
                 <li>Men</li>
                 <li>Women</li>
-                <li>Kids</li>
-                <li>Accesories</li>
-                <li>Sale</li>
+                <li class="hidden xl:block">Kids</li>
+                <li class="hidden xl:block">Accesories</li>
+                <li class="hidden xl:block">Sale</li>
             </ul>
 
             <!-- search -->
@@ -39,6 +39,31 @@
             <div class="flex gap-5 pr-4 mx-4">
                 <a href=""><img src="../../images/layout/heart.png" class="w-6" alt=""></a>
                 <a href=""><img src="../../images/layout/market.png" class="w-6" alt=""></a>
+            </div>
+        </div>
+    </div>
+    <!-- small header -->
+    <div class="lg:hidden">
+        <div class=" flex justify-between items-center max-w-[1920px] mx-auto h-16  px-5">
+            <!-- nike logo -->
+            <a class=""><img src="../../images/layout/nikelogo.png" class="w-[70px]" alt=""></a>
+
+            <!-- search -->
+            <div class="flex">
+                <div class="flex gap-5 mx-4">
+                    <a class="hover:bg-gray-200 size-9 rounded-full flex justify-center items-center" href="">
+                        <img src="../../images/layout/glass.png" class="size-7" >
+                    </a>
+                    <a class="hover:bg-gray-200 size-9 rounded-full flex justify-center items-center" href="">
+                        <img src="../../images/layout/market.png" class="size-6" >
+                    </a>
+                    <a class="hover:bg-gray-200 size-9 rounded-full flex justify-center items-center" href="">
+                        <img src="../../images/layout/user.png" class="size-6" >
+                    </a>
+                </div>
+                <a class="hover:bg-gray-200 size-9 rounded-full flex justify-center items-center" href="">
+                    <img src="../../images/layout/hambuger.png" class="size-7" >
+                </a>
             </div>
         </div>
     </div>
