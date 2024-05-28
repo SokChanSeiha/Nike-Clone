@@ -70,8 +70,6 @@ const navDesign = () => {
                   </ul>
                 </div>
               </div>
-  
-  
             </div>
           </li>
           <li class="cursor-pointer group hover:underline">Men
@@ -154,8 +152,6 @@ const navDesign = () => {
                   </ul>
                 </div>
               </div>
-  
-  
             </div>
           </li>
           <li class="cursor-pointer group hover:underline">Women
@@ -331,11 +327,8 @@ const navDesign = () => {
                       <li class="text-[14.5px] text-gray-500  hover:text-black">Fan Gear</li>
                     </ul>
                   </div>
-  
                 </div>
               </div>
-  
-  
             </div>
           </li>
           <li class="hidden xl:block cursor-pointer group hover:underline">Jordan
@@ -396,8 +389,6 @@ const navDesign = () => {
                   </ul>
                 </div>
               </div>
-  
-  
             </div>
           </li>
           <li class="hidden xl:block cursor-pointer group hover:underline">Sale
@@ -434,12 +425,10 @@ const navDesign = () => {
                   </ul>
                 </div>
               </div>
-  
-  
             </div>
           </li>
         </ul>
-        <div class="flex items-center gap-4">
+        <div class="flex items-center gap-8">
           <!-- search -->
           <div class="flex relative items-center gap-8 mx-auto">
             <input class="bg-gray-100 w-44 py-2 pl-12 rounded-full hover:bg-gray-200" placeholder="search">
@@ -453,8 +442,6 @@ const navDesign = () => {
             <a href=""><img src="../../images/layout/market.png" class="w-6" alt=""></a>
           </div>
         </div>
-
-
       </div>
     </div>
     <!-- small header -->
@@ -533,7 +520,7 @@ class NavDesign extends HTMLElement {
       hambugerContent.classList.toggle("left-[60%]");
       overlay.classList.toggle("blur-sm");
 
-      
+
     })
     hamburgerClose.addEventListener("click", () => {
       hambugerContent.classList.toggle("left-[100%]");
