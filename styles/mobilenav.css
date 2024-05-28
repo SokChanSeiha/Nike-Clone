@@ -1,0 +1,12 @@
+.openDrawer {
+    background-color: aqua;
+    transform: translateX(-160px);
+  }
+
+.mobileNav {
+    background-color: antiquewhite;
+  }
+  .hamburger {
+    cursor: pointer;
+    background: #8e8b8b;
+  }

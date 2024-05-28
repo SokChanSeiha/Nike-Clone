@@ -6,3 +6,8 @@ fetch("../../components/layout/navbar.html")
 
   })
   .catch((error) => console.error("Error fetching included file:", error));
+
+
+
+
+
