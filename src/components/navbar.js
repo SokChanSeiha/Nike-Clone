@@ -1,6 +1,6 @@
 const navDesign = () => {
   return `
-    <!--call navbar from component layout by class-->
+    <!--header-->
     <div class="bg-gray-100 lg:block hidden">
       <div class="flex justify-between max-w-[1920px] mx-auto items-center pl-9 px-2 py-1">
         <!-- left part-->
@@ -17,11 +17,12 @@ const navDesign = () => {
         </div>
       </div>
     </div>
+    
     <!-- NavBar -->
     <div class="lg:block hidden border border-b duration-1000 ease-out">
       <div class=" flex justify-between items-center max-w-[1920px] mx-auto  px-5 ">
         <!-- nike logo -->
-        <a class="pl-5"><img
+        <a href="../../pages/home/home.html" class="pl-5"><img
             src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a6/Logo_NIKE.svg/1200px-Logo_NIKE.svg.png"
             class="w-12 object-contain" alt=""></a>
         <!-- list -->
@@ -154,7 +155,8 @@ const navDesign = () => {
               </div>
             </div>
           </li>
-          <li class="cursor-pointer group hover:underline">Women
+          <li class="cursor-pointer group hover:underline">
+          <a href="../../pages/women/women.html">women</a>
             <div
               class="w-full max-h-[0px] group-hover:max-h-[1300px] duration-700 left-0 fixed bg-white ease-in-out flex gap-10 pointer-events-none group-hover:pointer-events-auto ">
               <div class="flex w-full max-w-[1200px] px-10 mx-auto justify-between group overflow-hidden">
@@ -448,7 +450,7 @@ const navDesign = () => {
     <div class="lg:hidden">
       <div class=" flex justify-between items-center max-w-[1920px] mx-auto h-16  px-5">
         <!-- nike logo -->
-        <a class="pl-5"><img src="../../images/layout/nikelogo.png" class="w-[70px]" alt=""></a>
+        <a class="pl-5" href="../../pages/home/home.html"><img src="../../images/layout/nikelogo.png" class="w-[70px]" alt=""></a>
   
         <!-- search -->
         <div class="flex">
@@ -469,38 +471,37 @@ const navDesign = () => {
       </div>
     </div>
   
-  <div id="hamburger-content" class="block lg:hidden top-0 bg-blue-200 z-20 w-[400px] h-screen p-12 fixed left-[100%] duration-500">
-  <button id="hamburger-close" class="bg-gray-100 rounded-full">X</button>  
-  <div class="flex flex-col">
-        <a href="#">New Featured</a>
-        <a href="#">New Featured</a>
-        <a href="#">New Featured</a>
-        <a href="#">New Featured</a>
-        <a href="#">New Featured</a>
-        <a href="#">New Featured</a>
+  <div id="hamburger-content" class="block lg:hidden top-0 bg-white z-20 w-[400px] h-screen p-12 fixed left-[100%] duration-500">
+  <button id="hamburger-close" class=" my-6 rounded-full text-2xl">X</button>  
+  <div class="flex flex-col gap-3">
+        <a class="text-2xl" href="#">New Featured</a>
+        <a class="text-2xl" href="#">Men</a>
+        <a class="text-2xl" href="../../pages/women/women.html">Women</a>
+        <a class="text-2xl" href="../../pages/kids/kids.html">Kids</a>
+        <a class="text-2xl" href="#">Jordan</a>
+        <a class="text-2xl" href="#">Sale</a>
     </div>
 
-    <div class="flex flex-col">
-        <span>LOGO</span>
-        <span>LOGO</span>
+    <div class="flex flex-col py-12 gap-4">
+      <div class="flex">
+        <img src=".../../../../images/layout/manshadow.png" class="w-[45px]">
+        <span>Jordan</span>
+      </div>
+      <div class="flex items-center">
+        <img src=".../../../../images/layout/Converse_(shoe_company)-Icon-Logo.wine.svg" class="w-[45px]">
+        <span>Converse</span>
+      </div>
     </div>
 
-    <div class="max-w-[200px]">
-        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aliquam at quas odio repellat rerum ratione dolores
-            doloremque sit molestias laboriosam.</p>
+    <div class="max-w-[250px] py-6">
+        <p class="text-gray-500 text-xl">Become a nike Member for the best products, inspiration and stories in sport. <span class="text-black">Learn more</span></p>
     </div>
 
-    <div class="flex">
-        <button>Join Us</button>
-        <button>Join Us</button>
+    <div class="flex gap-4">
+        <button class="rounded-full text-lg bg-black text-white px-4 py-1">Join Us</button>
+        <button class="rounded-full text-lg bg-white text-black px-4 py-1 border border-gray">Sign In</button>
     </div>
 
-    <ul class="flex flex-col items-start">
-        <button>LOGO</button>
-        <button>LOGO</button>
-        <button>LOGO</button>
-        <button>LOGO</button>
-    </ul>
 </div>
   
 <div id="overlayBG" class="hidden blur-lg top-0 fixed  w-full h-screen z-10"></div>
