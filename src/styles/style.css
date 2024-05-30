@@ -1,0 +1,58 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+  .about-us {
+    font-family: "Geologica", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+  font-variation-settings:
+    "slnt" 0,
+    "CRSV" 0,
+    "SHRP" 0;
+  }
+
+  
+  .fira-sans-semibold {
+    font-family: "Fira Sans", sans-serif;
+  }
+  .manrope-sans{
+    font-family: "Manrope", sans-serif;
+  }
+  .menu-icon {
+    display: inline-block;
+    transition: transform 0.3s ease; /* Smooth transform animation */
+  }
+  
+  .menu-button.active .menu-icon {
+    transform: rotate(90deg); /* Rotate the icon for close button appearance */
+  }
+  .hind {
+    font-family: "Hind", sans-serif;
+  }
+  .sodan {
+    font-family: "SoDo Sans",sans-serif;
+  }
+  
+  .radio {
+    font-family: "Radio Canada Big", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 10;
+    font-style: normal;
+  }
+  .oswald-SEMIBOLD {
+    font-family: "Oswald", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 390;
+    font-style: normal;
+  }
+
+
+.oswald{
+  font-family: "Oswald", sans-serif;
+  font-optical-sizing: AUTO;
+  font-weight: 500PX;
+  font-style: normal;
+}
+
+  
