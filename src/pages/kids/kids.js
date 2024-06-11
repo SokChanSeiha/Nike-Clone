@@ -208,21 +208,21 @@ const createKidsPage = () => {
                 <div class="w-[500px] lg:w-[585px]">
                 <a href=""><img class="w-full" src="../../images/kids/m-1.png" alt=""></a>
                 <h1 class="text-lg my-3">Shoes $70 & Under</h1>
-                <a class="pt-12 text-sm font-medium underline">Shop</a>
+                <a class="pt-12 text-sm font-medium underline underline-offset-4">Shop</a>
                 </div>
             </div>
             <div class="w-full">
                 <div class="w-[500px] lg:w-[585px] ">
                 <a href=""><img class="w-full" src="../../images/kids/m-2.png" alt=""></a>
                 <h1 class="text-lg my-3">Graphic Tees & Shorts</h1>
-                <a class="pt-12 text-sm font-medium underline">Shop</a>
+                <a class="pt-12 text-sm font-medium underline underline-offset-4">Shop</a>
                 </div>
             </div>
             <div class="w-full">
                 <div class="w-[500px] lg:w-[585px] ">
                 <a href=""><img class="w-full" src="../../images/kids/m-3.png" alt=""></a>
                 <h1 class="text-lg my-3">Easy On & Off Shoes</h1>
-                <a class="pt-12 text-sm font-medium underline">Shop</a>
+                <a class="pt-12 text-sm font-medium underline underline-offset-4">Shop</a>
                 </div>
             </div>
         </div>
