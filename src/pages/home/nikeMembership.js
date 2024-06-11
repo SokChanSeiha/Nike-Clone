@@ -50,15 +50,15 @@ export const nikeMembership = (items) => {
     return `
         <div class="max-w-[1920px] mx-auto px-12">
             <div class="py-6"><h1 class="text-3xl font-bold tracking-[0.5px]">Nike Membership</h1></div>
-            <div class="flex text-white gap-4">
+            <div class="flex text-white gap-4 overflow-x-scroll">
                 ${items.map(item => `
                     <div class="relative w-full">
                         <a href="#">
-                            <img class="w-full h-full" src="${item.imgURL}" alt="">
+                            <img class="min-w-[300px]" src="${item.imgURL}" alt="">
                         </a>
                         <div class="absolute left-11 bottom-11">
-                            <h1>${item.text_1}</h1>
-                            <h1 class="pb-4 text-3xl mt-1 tracking-wide">${item.text_2}</h1>
+                            <h1 class="text-sm md:text-lg">${item.text_1}</h1>
+                            <h1 class="pb-4 text-xl lg:text-3xl font-semibold mt-1 tracking-wide">${item.text_2}</h1>
                             <button class="px-4 py-2 bg-white text-black rounded-full">${item.buttonText}</button>
                         </div>
                     </div>
