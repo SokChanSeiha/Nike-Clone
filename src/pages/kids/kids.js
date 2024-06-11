@@ -268,8 +268,6 @@ const createKidsPage = () => {
             </div>
         </div>
     </div>
-
-  
     `
 }
 
