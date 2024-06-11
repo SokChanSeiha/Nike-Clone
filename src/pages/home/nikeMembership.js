@@ -1,4 +1,5 @@
 const trendingData = {
+    //Data for Home page
     homePage: [
         {
             imgURL: "../../images/home/last-1.png",
@@ -19,6 +20,7 @@ const trendingData = {
             buttonText: "Shop"
         }
     ],
+    //Data for Women page
     womenPage: [
         {
             imgURL: "../../images/home/last-1.png",
@@ -42,6 +44,7 @@ const trendingData = {
 
 };
 
+//HTML code fused with various data as dynamic component
 export const nikeMembership = (items) => {
     return `
         <div class="max-w-[1920px] mx-auto px-12">
@@ -78,4 +81,5 @@ class NikeMembershipComponent extends HTMLElement {
     }
 }
 
+//naming a callback component for "Nike Membership content"
 customElements.define("nike-membership-component", NikeMembershipComponent);

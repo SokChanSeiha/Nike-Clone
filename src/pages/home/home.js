@@ -1,10 +1,10 @@
 const createHomePage = () => {
     return`
-    <!-- shop collection -->
+    <!-- hero section -->
     <div>
       <img src="../../images/home/bigimage.jpg" class="w-full" alt="">
     </div>
-    <div class=" mt-12">
+    <div class="mt-12">
       <div class=" mx-auto max-w-[700px] text-center">
         <h1 class="text-lg">Brooks's Looks</h1>
         <h1 class="text-7xl font-black mb-5">GEAR-UP FOR<br> THE MAJORS</h1>
@@ -183,4 +183,6 @@ class HomePage extends HTMLElement {
         this.innerHTML = createHomePage();
     }
 }
+
+//naming a callback component for "Home page"
 customElements.define("home-page-content", HomePage)
