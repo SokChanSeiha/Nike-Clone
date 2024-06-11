@@ -20,6 +20,7 @@ const trendingData = {
             buttonText: "Shop"
         }
     ],
+    
     //Data for Women page
     womenPage: [
         {

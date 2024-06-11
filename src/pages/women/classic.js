@@ -41,15 +41,17 @@
 //     ]
 
 // };
-import {imageData_1} from "./classicData.js"
-import {imageData_2} from "./classicData.js"
+
+//import data from other seperate file
+import {imageDataForHome, imageDataForWomen} from "./classicData.js"
 
 const dataSource = {
-    "womenImg" : imageData_1,
-    "homeImg" : imageData_2
+    "womenImage" : imageDataForWomen,
+    "homeImage" : imageDataForHome
 }
 
- const classicSpotlight = (items) => {
+//HTML code fused with various data as dynamic component
+const classicSpotlight = (items) => {
     return `
         <div class="max-w-[1920px] mx-auto px-12 py-6 flex items-center justify-between mt-20">
             <h1 class="text-2xl">Classic Spotlight</h1>

@@ -1,4 +1,5 @@
-export const imageData_1 = [
+//Image data for classic spotlight (home page)
+export const imageDataForHome = [
     {
         url:"../../images/women/classicSpotlight-1.png"
     },
@@ -16,7 +17,8 @@ export const imageData_1 = [
     },
 ]
 
-export const imageData_2 = [
+//Image data for classic spotlight (women page)
+export const imageDataForWomen = [
     {
         url:"../../images/home/classic1.jpg"
     },

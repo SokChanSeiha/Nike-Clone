@@ -99,6 +99,8 @@ const createWomenPage = () => {
 
 <!-- Classic Spotlight -->
 <classic-spotlight-component data-source="womenImg"></classic-spotlight-component>
+
+// popular Right Now
 <div>
     <div class="max-w-[1920px] mx-auto flex items-center justify-between py-6 px-6">
         <h1 class="text-2xl lg:px-8">Popular Right now</h1>
@@ -218,4 +220,6 @@ class WomenPage extends HTMLElement {
         this.innerHTML = createWomenPage();
     }
 }
+
+//naming a callback component for "Women page"
 customElements.define("women-page-content", WomenPage)

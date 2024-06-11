@@ -250,4 +250,6 @@ class KidsPage extends HTMLElement {
         this.innerHTML = createKidsPage();
     }
 }
+
+//naming a callback component for "Kids page"
 customElements.define("kids-page-content", KidsPage)
