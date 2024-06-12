@@ -3,12 +3,12 @@ const createKidsPage = () => {
     <!-- New this week's content-->
     <div class="max-w-[1920px] mx-auto w-full lg:px-10 px-5 flex flex-col justify-center">
         <!-- image of "New this week" -->
-        <div class="w-full">
+        <picture class="w-full">
           <img src="../../images/kids/kids-sm.png" class="block md:hidden " alt="">
           <img src="../../images/kids/kids-lg.png" class="hidden md:block " alt="">
-        </div>
+        </picture>
         <!-- content's title: NEW THIS WEEK -->
-        <div class="sm:mx-auto max-w-7xl flex flex-col gap-6 py-8">
+        <article class="sm:mx-auto max-w-7xl flex flex-col gap-6 py-8">
           <h1 class="sm:mx-auto text-5xl lg:text-7xl font-black tracking-[-3px] oswald">NIKE AQUA SWOOSH</h1>
           <h1 class="sm:mx-auto">Made for all your water-based adventures.</h1>
           <!-- button area : "shop"-->
@@ -17,7 +17,7 @@ const createKidsPage = () => {
               <h1 class=" text-white">Shop</h1>
             </button>
           </div>
-        </div>
+        </article>
     </div>
     
     <!-- Popular Right now's content -->
@@ -160,40 +160,40 @@ const createKidsPage = () => {
         <div class="max-w-[1920px] flex flex-col mx-auto text-white gap-4 sm:flex-row">
             <!-- 1st card image (desktop)-->
             <div class="relative w-full lg:block hidden">
-            <a class=""><img class="w-full h-full" src="../../images/kids/t-mom-big.png" alt=""></a>
-            <div class="absolute left-11 bottom-11">
-                <h1>Nike Alphafly 3</h1>
-                <h1 class="text-lg mt-1 tracking-wide">Nike Zegama 2</h1>
-                <button class="bg-white py-1.5 px-5 rounded-full mt-8 text-black font-medium">Shop</button>
-            </div>
+                <a class=""><img class="w-full h-full" src="../../images/kids/t-mom-big.png" alt=""></a>
+                <article class="absolute left-11 bottom-11">
+                    <h1>Nike Alphafly 3</h1>
+                    <h1 class="text-lg mt-1 tracking-wide">Nike Zegama 2</h1>
+                    <button class="bg-white py-1.5 px-5 rounded-full mt-8 text-black font-medium">Shop</button>
+                </article>
             </div>
             <!-- 1st card image (mobile)-->
             <div class="relative w-full lg:hidden block">
-            <a class=""><img class="w-full h-full" src="../../images/kids/t-mom-small.png" alt=""></a>
-            <div class="absolute left-11 bottom-11">
-                <h1>Nike Alphafly 3</h1>
-                <h1 class="text-lg mt-1 tracking-wide">Nike Zegama 2</h1>
-                <button class="bg-white py-1.5 px-5 rounded-full mt-8 text-black font-medium">Shop</button>
-            </div>
+                <a class=""><img class="w-full h-full" src="../../images/kids/t-mom-small.png" alt=""></a>
+                <article class="absolute left-11 bottom-11">
+                    <h1>Nike Alphafly 3</h1>
+                    <h1 class="text-lg mt-1 tracking-wide">Nike Zegama 2</h1>
+                    <button class="bg-white py-1.5 px-5 rounded-full mt-8 text-black font-medium">Shop</button>
+                </article>
             </div>
 
             <!-- 2nd card image (desktop)-->
             <div class="relative w-full sm:block hidden">
-            <a class=""><img class="w-full h-full object-cover " src="../../images/kids/t-skate-big.png" alt=""></a>
-            <div class="absolute left-11 bottom-11">
-                <h1>Mother's Day</h1>
-                <h1 class="text-lg tracking-wide mt-1">Gifts for Together Time</h1>
-                <button class="bg-white py-1.5 px-5 rounded-full mt-8 text-black font-medium">Shop</button>
-            </div>
+                <a class=""><img class="w-full h-full object-cover " src="../../images/kids/t-skate-big.png" alt=""></a>
+                <article class="absolute left-11 bottom-11">
+                    <h1>Mother's Day</h1>
+                    <h1 class="text-lg tracking-wide mt-1">Gifts for Together Time</h1>
+                    <button class="bg-white py-1.5 px-5 rounded-full mt-8 text-black font-medium">Shop</button>
+                </article>
             </div>
             <!-- 2nd card image (mobile)-->
             <div class="relative w-full sm:hidden block">
-            <a class=""><img class="w-full h-full object-cover " src="../../images/kids/t-skate-small.png" alt=""></a>
-            <div class="absolute left-11 bottom-11">
-                <h1>Mother's Day</h1>
-                <h1 class="text-lg mt-1 tracking-wide">Gifts for Together Time</h1>
-                <button class="bg-white py-1.5 px-5 rounded-full mt-8 text-black font-medium">Shop</button>
-            </div>
+                <a class=""><img class="w-full h-full object-cover " src="../../images/kids/t-skate-small.png" alt=""></a>
+                <article class="absolute left-11 bottom-11">
+                    <h1>Mother's Day</h1>
+                    <h1 class="text-lg mt-1 tracking-wide">Gifts for Together Time</h1>
+                    <button class="bg-white py-1.5 px-5 rounded-full mt-8 text-black font-medium">Shop</button>
+                </article>
             </div>
         </div>
     </div>
