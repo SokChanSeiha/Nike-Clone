@@ -29,21 +29,27 @@
 </head>
 
 <body>
-  <!-- Navbar -->
+  <!-- Navbar from layout component-->
   <navbar-component></navbar-component>
 
   <!-- body section -->
   <main class="blurPage">
+    <!-- home page content -->
     <home-page-content></home-page-content>
+
+    <!-- Classics Spotlight -->
+    <classic-spotlight-component data-source="homeImage"></classic-spotlight-component>
+    
+    <!-- Nike membership component -->
     <nike-membership-component></nike-membership-component>
   </main>
   
 
-  <!-- footer -->
+  <!-- footer from layout component-->
   <footer-component></footer-component>
 </body>
 
-<!-- script link -->
+<!-- script link component used in home page-->
 <script type="module" src="./nikeMembership.js"></script>
 <script type="module" src="../../components/layout.js"></script>
 <script type="module" src="../women/classic.js"></script>

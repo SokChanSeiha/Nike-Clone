@@ -1,55 +1,13 @@
-// const trendingData = {
-//     homePage: [
-//         {
-//             imgURL: "../../images/home/last-1.png",
-//             text_1: "Nike Alphafly 3",
-//             text_2: "Nike Zegama 2",
-//             buttonText: "Shop"
-//         },
-//         {
-//             imgURL: "../../images/home/last-2.png",
-//             text_1: "Nike Pegasus 39",
-//             text_2: "Nike Invincible 2",
-//             buttonText: "Shop"
-//         },
-//         {
-//             imgURL: "../../images/home/last-3.png",
-//             text_1: "Nike Air Zoom",
-//             text_2: "Nike Wildhorse 7",
-//             buttonText: "Shop"
-//         }
-//     ],
-//     womenPage: [
-//         {
-//             imgURL: "../../images/home/last-1.png",
-//             text_1: "Member Product",
-//             text_2: "Your Exclusive Access",
-//             buttonText: "Shop"
-//         },
-//         {
-//             imgURL: "../../images/home/last-4.png",
-//             text_1: "Member Rewards",
-//             text_2: "How We Say Thank You",
-//             buttonText: "Celebrate"
-//         },
-//         {
-//             imgURL: "../../images/home/last-2.png",
-//             text_1: "Sport & Wellness Apps",
-//             text_2: "Movement Where <br> You're At",
-//             buttonText: "Shop"
-//         }
-//     ]
-
-// };
-import {imageData_1} from "./classicData.js"
-import {imageData_2} from "./classicData.js"
+//import data from other seperate file
+import {imageDataForHome, imageDataForWomen} from "./classicData.js"
 
 const dataSource = {
-    "womenImg" : imageData_1,
-    "homeImg" : imageData_2
+    "womenImage" : imageDataForWomen,
+    "homeImage" : imageDataForHome
 }
 
- const classicSpotlight = (items) => {
+//HTML code fused with various data as dynamic component
+const classicSpotlight = (items) => {
     return `
         <div class="max-w-[1920px] mx-auto px-12 py-6 flex items-center justify-between mt-20">
             <h1 class="text-2xl">Classic Spotlight</h1>

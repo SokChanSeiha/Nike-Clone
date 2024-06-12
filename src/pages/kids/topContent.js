@@ -1,3 +1,4 @@
+//usable for kids page and women page
 const titleContent = (title) => {
     return `
     <div class="max-w-[1920px] mx-auto w-full px-10 flex flex-col h-24 justify-center mb-2">

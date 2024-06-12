@@ -155,4 +155,4 @@ Contributions are welcome! If you would like to contribute, please follow these 
 For any questions, feel free to reach out:
 
 - **Sok Chan Seiha** - [sokchanseiha@gmail.com](mailto:sokchanseiha@gmail.com)
-- GitLab: [@Seyla123](https://git.clp.kr/SokChanSeiha)
+- GitLab: [@s](https://git.clp.kr/SokChanSeiha)
