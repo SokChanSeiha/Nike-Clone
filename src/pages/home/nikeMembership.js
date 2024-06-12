@@ -53,14 +53,14 @@ export const nikeMembership = (items) => {
             <div class="flex text-white gap-4 overflow-x-scroll">
                 ${items.map(item => `
                     <div class="relative w-full">
-                        <a href="#">
+                        <picture href="#">
                             <img class="min-w-[300px]" src="${item.imageURL}" alt="">
-                        </a>
-                        <div class="absolute left-11 bottom-11">
+                        </picture>
+                        <article class="absolute left-11 bottom-11">
                             <h1 class="text-sm md:text-lg">${item.titleText}</h1>
                             <h1 class="pb-4 text-xl lg:text-3xl font-semibold mt-1 tracking-wide">${item.captionText}</h1>
                             <button class="px-4 py-2 bg-white text-black rounded-full">${item.buttonText}</button>
-                        </div>
+                        </article>
                     </div>
                 `).join('')}
             </div>

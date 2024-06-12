@@ -3,12 +3,12 @@ const createHomePage = () => {
     <!-- hero section -->
     <div>
       <img src="../../images/home/bigimage.jpg" class="w-full">
-      <div class=" mx-auto max-w-[700px] text-center mt-12">
+      <article class=" mx-auto max-w-[700px] text-center mt-12">
         <h1 class="text-lg">Brooks's Looks</h1>
         <h1 class="text-7xl font-black mb-5">GEAR-UP FOR<br> THE MAJORS</h1>
         <h1>How the golf sensation is gearing up for this season's Majors and beyond.</h1>
         <button class="mt-6 bg-black text-white py-1.5 px-5 rounded-full">Shop the Collection</button>
-      </div>
+      </article>
     </div>
 
     <!-- chevron icons (left, right) -->
@@ -157,7 +157,7 @@ const createHomePage = () => {
 
     <!-- New this week's content-->
     <div class="max-w-[1920px] mx-auto w-full lg:px-10 flex flex-col mt-6">
-      <div class="sm:mx-auto max-w-7xl flex flex-col gap-6 py-8">
+      <article class="sm:mx-auto max-w-7xl flex flex-col gap-6 py-8">
         <!-- content's title: NEW THIS WEEK -->
         <h1 class="mx-auto text-4xl lg:text-5xl font-black tracking-[-2px] oswald">NEW THIS WEEK</h1>
         <!-- button area : "Shop New Arrivals"-->
@@ -166,7 +166,7 @@ const createHomePage = () => {
             <h1 class=" text-white">Shop New Arrivals</h1>
           </button>
         </div>
-      </div>
+      </article>
       <!-- image of "New this week" -->
       <div class="w-full mx-auto">
         <img src="../../images/home/newSM.png" class="block sm:hidden w-full" alt="">
